@@ -1,8 +1,6 @@
 clc
 clear
 
-% trial1 = Trial("FSH-S-700-C-0818.xlsm")
-
 [file,path] = uigetfile('*.xlsm');
 file = convertCharsToStrings(file);
 trial1 = Trial(file)
